@@ -6,7 +6,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div>
+    <div background="maroon">
       <Navbar />
       <AboutMe />
       <Skills />

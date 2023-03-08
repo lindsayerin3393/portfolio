@@ -11,9 +11,11 @@ const AboutMe = () => {
           justifyContent="center"
           alignItems="center"
         >
+          <Typography variant="h3" align="center" color="#000080">
+            Hello!
+          </Typography>
           <Typography variant="h5" align="center" color="#000080">
-            Hello! I'm Lindsay, a full stack software engineer based in
-            Baltimore, MD.
+            I'm Lindsay, a full stack software engineer based in Baltimore, MD.
           </Typography>
 
           <Typography align="center" color="#000080">
