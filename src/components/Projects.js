@@ -76,7 +76,7 @@ const Projects = () => {
             >
               <CardMedia component="img" src={honey} height="300" width="100" />
               <CardContent>
-                <Typography>Anything Honey</Typography>
+                <Typography>Everything Honey</Typography>
                 <IconButton
                   href="https://github.com/Anteater-GraceShopper/graceshopper-project"
                   target="_blank"
