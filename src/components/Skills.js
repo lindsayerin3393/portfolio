@@ -11,7 +11,7 @@ const Skills = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Typography variant="h4" align="center" margin={3} color="maroon">
+          <Typography variant="h4" align="center" margin={3} color="#dcd5b9">
             Skills
           </Typography>
           <Stack direction="row" spacing={6}>
@@ -19,12 +19,12 @@ const Skills = () => {
               component="img"
               sx={{
                 height: 100,
-                width: 150,
+                width: 100,
                 maxHeight: { xs: 233, md: 167 },
                 maxWidth: { xs: 350, md: 250 },
               }}
               alt="Javascript"
-              src="https://thumbs.dreamstime.com/b/javascript-logo-javascript-logo-white-background-vector-format-available-136765881.jpg"
+              src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
             />
             <Box
               component="img"
@@ -35,12 +35,12 @@ const Skills = () => {
                 maxWidth: { xs: 350, md: 250 },
               }}
               alt="HTML"
-              src="https://p.kindpng.com/picc/s/23-237381_java-html-language-logo-png-transparent-png.png"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Devicon-html5-plain-wordmark.svg/800px-Devicon-html5-plain-wordmark.svg.png"
             />
             <Box
               component="img"
               sx={{
-                height: 90,
+                height: 100,
                 width: 80,
                 maxHeight: { xs: 233, md: 167 },
                 maxWidth: { xs: 350, md: 250 },

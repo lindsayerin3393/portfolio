@@ -11,16 +11,25 @@ const AboutMe = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Typography variant="h3" align="center" color="#000080">
+          <Typography
+            variant="h3"
+            align="center"
+            color="#dcd5b9"
+            className="typewriter"
+          >
             Hello!
           </Typography>
-          <Typography variant="h5" align="center" color="#000080">
+          <Typography variant="h5" align="center" color="#dcd5b9">
             I'm Lindsay, a full stack software engineer based in Baltimore, MD.
           </Typography>
 
-          <Typography align="center" color="#000080">
+          <Typography align="center" color="#dcd5b9">
             I'm passionate about traveling and in my free time you can either
-            find me in the park with my dog or planning a trip.
+            find me in the park with my dog or planning a trip (preferably to a
+            beach).
+          </Typography>
+          <Typography align="center" color="#dcd5b9">
+            I specialize in the PERN stack.
           </Typography>
         </Grid>
       </Box>

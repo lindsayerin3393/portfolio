@@ -24,7 +24,7 @@ const Projects = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Typography variant="h4" align="center" margin={3}>
+          <Typography variant="h4" align="center" margin={3} color="#dcd5b9">
             Projects
           </Typography>
           <Stack direction="row" spacing={6}>
@@ -48,7 +48,7 @@ const Projects = () => {
                 <IconButton
                   href="https://github.com/toads-garden/toads-garden-web"
                   target="_blank"
-                  color="primary"
+                  color="secondary"
                   disableRipple
                   sx={{ m: 1, ":hover": { color: "maroon" } }}
                 >
@@ -57,7 +57,7 @@ const Projects = () => {
                 <IconButton
                   href="https://toads-garden.onrender.com"
                   target="_blank"
-                  color="primary"
+                  color="secondary"
                   disableRipple
                   sx={{ m: 1, ":hover": { color: "maroon" } }}
                 >
@@ -80,7 +80,7 @@ const Projects = () => {
                 <IconButton
                   href="https://github.com/Anteater-GraceShopper/graceshopper-project"
                   target="_blank"
-                  color="primary"
+                  color="secondary"
                   disableRipple
                   sx={{ m: 1, ":hover": { color: "maroon" } }}
                 >
@@ -108,7 +108,7 @@ const Projects = () => {
                 <IconButton
                   href="https://github.com/lindsayerin3393/2211-GHP-ET-WEB-FT-JPFP"
                   target="_blank"
-                  color="primary"
+                  color="secondary"
                   disableRipple
                   sx={{ m: 1, ":hover": { color: "maroon" } }}
                 >
