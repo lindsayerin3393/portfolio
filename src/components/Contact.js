@@ -14,10 +14,11 @@ const Contact = () => {
             alignItems="center"
           >
             <Typography variant="h2" align="center" margin={3} color="#dcd5b9">
-              Let's Connect!
+              Get in touch!
             </Typography>
             <Typography variant="h5" align="center" margin={3} color="#dcd5b9">
-              Want to collaborate?
+              I'd love to connect with fellow engineers or anyone in need of an
+              engineer!
             </Typography>
             <Button
               startIcon={<Mail />}

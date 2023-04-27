@@ -26,7 +26,7 @@ const AboutMe = () => {
           <Typography align="center" color="#dcd5b9">
             I'm passionate about traveling and in my free time you can either
             find me in the park with my dog or planning a trip (preferably to a
-            beach).
+            beach somewhere).
           </Typography>
           <Typography align="center" color="#dcd5b9">
             I specialize in the PERN stack.
