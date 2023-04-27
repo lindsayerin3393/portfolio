@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import toadImg from "../images/toadScreenshot.png";
 import honey from "../images/everythingHoney.png";
 import jpfp from "../images/jpfp.png";
@@ -18,17 +19,20 @@ import { GitHub, Launch } from "@mui/icons-material";
 const Projects = () => {
   return (
     <>
-      <Box height="90vh" width="90vw" display="flex">
-        <Grid
-          container
-          direction="column"
+      {/* <Box height="100vh" width="100vw" display="flex"> */}
+      <Grid container display="flex" direction="column" justifyContent="center">
+        <Typography variant="h3" align="center" margin={3} color="#dcd5b9">
+          Cool Projects
+        </Typography>
+        <Stack
+          direction="row"
+          spacing={2}
+          display="flex"
           justifyContent="center"
           alignItems="center"
+          margin={3}
         >
-          <Typography variant="h4" align="center" margin={3} color="#dcd5b9">
-            Projects
-          </Typography>
-          <Stack direction="row" spacing={6}>
+          <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
             <Card
               raised
               sx={{
@@ -66,6 +70,8 @@ const Projects = () => {
                 </IconButton>
               </CardContent>
             </Card>
+          </motion.div>
+          <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
             <Card
               raised
               sx={{
@@ -98,6 +104,17 @@ const Projects = () => {
                 </IconButton>
               </CardContent>
             </Card>
+          </motion.div>
+        </Stack>
+        <Stack
+          direction="row"
+          spacing={2}
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          margin={3}
+        >
+          <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
             <Card
               raised
               sx={{
@@ -121,6 +138,8 @@ const Projects = () => {
                 </IconButton>
               </CardContent>
             </Card>
+          </motion.div>
+          <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
             <Card
               raised
               sx={{
@@ -149,9 +168,10 @@ const Projects = () => {
                 </IconButton>
               </CardContent>
             </Card>
-          </Stack>
-        </Grid>
-      </Box>
+          </motion.div>
+        </Stack>
+      </Grid>
+      {/* </Box> */}
     </>
   );
 };

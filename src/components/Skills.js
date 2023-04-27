@@ -11,10 +11,10 @@ const Skills = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Typography variant="h4" align="center" margin={3} color="#dcd5b9">
+          <Typography variant="h3" align="center" margin={3} color="#dcd5b9">
             Skills
           </Typography>
-          <Stack direction="row" spacing={6}>
+          <Stack direction="row" spacing={3}>
             <Box
               component="img"
               sx={{
