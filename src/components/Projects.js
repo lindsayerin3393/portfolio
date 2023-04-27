@@ -1,7 +1,8 @@
 import React from "react";
-import toadImg from "./toadScreenshot.png";
-import honey from "./everythingHoney.png";
-import jpfp from "./jpfp.png";
+import toadImg from "../images/toadScreenshot.png";
+import honey from "../images/everythingHoney.png";
+import jpfp from "../images/jpfp.png";
+import welp from "../images/welp.png";
 import {
   Box,
   Grid,
@@ -17,7 +18,7 @@ import { GitHub, Launch } from "@mui/icons-material";
 const Projects = () => {
   return (
     <>
-      <Box height="100vh" width="100vw" display="flex">
+      <Box height="90vh" width="90vw" display="flex">
         <Grid
           container
           direction="column"
@@ -56,6 +57,38 @@ const Projects = () => {
                 </IconButton>
                 <IconButton
                   href="https://toads-garden.onrender.com"
+                  target="_blank"
+                  color="secondary"
+                  disableRipple
+                  sx={{ m: 1, ":hover": { color: "maroon" } }}
+                >
+                  <Launch></Launch>
+                </IconButton>
+              </CardContent>
+            </Card>
+            <Card
+              raised
+              sx={{
+                width: 280,
+                ml: 10,
+                mb: 3,
+                padding: "0.1em",
+              }}
+            >
+              <CardMedia component="img" image={welp} height="300" width="10" />
+              <CardContent>
+                <Typography>W.E.L.P.</Typography>
+                <IconButton
+                  href="https://github.com/Duck-Team-Pluto/Planet-Quackathon"
+                  target="_blank"
+                  color="secondary"
+                  disableRipple
+                  sx={{ m: 1, ":hover": { color: "maroon" } }}
+                >
+                  <GitHub></GitHub>
+                </IconButton>
+                <IconButton
+                  href="https://welp-y6ke.onrender.com/"
                   target="_blank"
                   color="secondary"
                   disableRipple

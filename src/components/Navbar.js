@@ -11,6 +11,12 @@ import {
 } from "@mui/icons-material";
 
 const App = () => {
+  // const onDownload = () => {
+  //   const link = document.createElement("a");
+  //   link.download = `Powell_Resume.pdf`;
+  //   link.href = { resume };
+  //   link.click();
+  // };
   return (
     <div>
       <BrowserRouter>
@@ -128,6 +134,7 @@ const App = () => {
               startIcon={<Description />}
               color="primary"
               variant="outlined"
+              href="./resume.pdf"
               disableRipple
               sx={{
                 m: 1,

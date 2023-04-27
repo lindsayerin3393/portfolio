@@ -20,7 +20,7 @@ const AboutMe = () => {
             Hello!
           </Typography>
           <Typography variant="h5" align="center" color="#dcd5b9">
-            I'm Lindsay, a full stack software engineer based in Baltimore, MD.
+            I'm Lindsay, a fullstack software engineer based in Baltimore, MD.
           </Typography>
 
           <Typography align="center" color="#dcd5b9">
