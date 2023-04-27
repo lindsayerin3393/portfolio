@@ -11,12 +11,12 @@ import {
 } from "@mui/icons-material";
 
 const App = () => {
-  // const onDownload = () => {
-  //   const link = document.createElement("a");
-  //   link.download = `Powell_Resume.pdf`;
-  //   link.href = { resume };
-  //   link.click();
-  // };
+  const onDownload = () => {
+    const link = document.createElement("a");
+    link.download = `Powell_Resume.pdf`;
+    link.href = "resume.pdf";
+    link.click();
+  };
   return (
     <div>
       <BrowserRouter>
@@ -131,10 +131,10 @@ const App = () => {
               <Email></Email>
             </IconButton>
             <Button
+              onClick={onDownload}
               startIcon={<Description />}
               color="primary"
               variant="outlined"
-              href="./resume.pdf"
               disableRipple
               sx={{
                 m: 1,
