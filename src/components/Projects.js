@@ -5,7 +5,6 @@ import honey from "../images/everythingHoney.png";
 import jpfp from "../images/jpfp.png";
 import welp from "../images/welp.png";
 import {
-  Box,
   Grid,
   Typography,
   CardMedia,
