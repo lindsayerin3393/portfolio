@@ -3,7 +3,7 @@ import { Box, Grid, Typography, Stack } from "@mui/material";
 
 const Skills = () => {
   return (
-    <div>
+    <div id="skills">
       <Box height="100vh" width="100vw" display="flex">
         <Grid
           container
