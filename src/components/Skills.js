@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Grid, Typography, Stack } from "@mui/material";
+import java from "../images/Java.png";
 
 const Skills = () => {
   return (
@@ -25,6 +26,17 @@ const Skills = () => {
               }}
               alt="Javascript"
               src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+            />
+            <Box
+              component="img"
+              sx={{
+                height: 100,
+                width: 100,
+                maxHeight: { xs: 233, md: 167 },
+                maxWidth: { xs: 350, md: 250 },
+              }}
+              alt="Java"
+              src={java}
             />
             <Box
               component="img"
