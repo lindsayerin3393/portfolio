@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Grid, Typography, Stack } from "@mui/material";
-import java from "../images/Java.png";
+import python from "../images/python.jpg";
 
 const Skills = () => {
   return (
@@ -35,8 +35,8 @@ const Skills = () => {
                 maxHeight: { xs: 233, md: 167 },
                 maxWidth: { xs: 350, md: 250 },
               }}
-              alt="Java"
-              src={java}
+              alt="Python"
+              src={python}
             />
             <Box
               component="img"
